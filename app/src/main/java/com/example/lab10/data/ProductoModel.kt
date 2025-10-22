@@ -6,7 +6,7 @@ data class ProductoModel(
     @SerializedName("nombre")
     var nombre:String,
     @SerializedName("precio")
-    var precio:Int,
+    var precio:Float,
     @SerializedName("stock")
     var stock:Int,
     @SerializedName("pub_date")
